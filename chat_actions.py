@@ -1,5 +1,5 @@
 from telegram.ext import Updater, CommandHandler
-updater = Updater('TOKEN')
+updater = Updater('1582452903:AAGHvnst6qGttPjkWLBXQuWRFP-5ZbRrVFM')
 
 def start_method(bot, update, args):
     chat_id = update.message.chat_id
